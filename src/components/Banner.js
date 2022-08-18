@@ -44,9 +44,9 @@ export const Banner = () => {
     return (
         <section className="banner" id="home">
             <Container>
-                <Row classname="align-items-center">
+                <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
-                        <span classname="tagLine">Welcome to my Portifolio</span>
+                        <span className="tagLine">Welcome to my Portifolio</span>
                         <h1>{`Hi I'm Mauricio`}<span className="wrap">{text}</span></h1>
                         <p>blablalbalablablalbala</p>
                         <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25} /></button>
